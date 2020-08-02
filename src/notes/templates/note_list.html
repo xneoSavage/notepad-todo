@@ -6,10 +6,9 @@
         <i class="fas fa-plus fa-sm" style="color:darkslategrey"></i></a></h2>
 </div>
 <hr />
-
 <div class="collapse" id="collapseExample">
   <div class="card card-body">
-     <form method="post">
+      <form method="post">
       {% csrf_token %}
       <div class="form-group">
         <label for="id_title">Title</label>
@@ -22,10 +21,10 @@
       <div class="form-group form-check">
         <label for="id_label">Label</label>
         {{ form.labels }}
-  <p><button type="submit" class="btn btn-primary">Create</button></p>
-    </form>
+        <p><button type="submit" class="btn btn-primary">Create</button></p>
+      </form>
+      </div>
   </div>
-</div>
 </div>
 
 <div class="row">
